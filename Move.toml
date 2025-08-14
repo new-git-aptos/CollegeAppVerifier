@@ -1,0 +1,16 @@
+[package]
+name = "collage_app_verifier"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CollegeApp='0xedc6810e9af0a540fd3032f6b6111608d7fd8c1a37e5fed509164259748a70b7'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
